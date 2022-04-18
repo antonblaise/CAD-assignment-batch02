@@ -1,0 +1,44 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Apr 18 17:24:22 2022
+[*]
+[dumpfile] "/home/antonius/Antonius/Verilog/DPU.vcd"
+[dumpfile_mtime] "Mon Apr 18 16:42:54 2022"
+[dumpfile_size] 1326
+[savefile] "/home/antonius/Antonius/Verilog/DPU.gtkw"
+[timestart] 3600
+[size] 1920 1016
+[pos] -1 -1
+*-11.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 288
+@c00024
+DPU_testbench.din[15:0]
+@28
+(0)DPU_testbench.din[15:0]
+(1)DPU_testbench.din[15:0]
+(2)DPU_testbench.din[15:0]
+(3)DPU_testbench.din[15:0]
+(4)DPU_testbench.din[15:0]
+(5)DPU_testbench.din[15:0]
+(6)DPU_testbench.din[15:0]
+(7)DPU_testbench.din[15:0]
+(8)DPU_testbench.din[15:0]
+(9)DPU_testbench.din[15:0]
+(10)DPU_testbench.din[15:0]
+(11)DPU_testbench.din[15:0]
+(12)DPU_testbench.din[15:0]
+(13)DPU_testbench.din[15:0]
+(14)DPU_testbench.din[15:0]
+(15)DPU_testbench.din[15:0]
+@1401200
+-group_end
+@28
+DPU_testbench.dsel[1:0]
+DPU_testbench.seg[7:0]
+@24
+DPU_testbench.dout[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
