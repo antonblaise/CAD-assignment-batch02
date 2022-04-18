@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
-set_global_assignment -name TOP_LEVEL_ENTITY bcd7segDEC
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:33:45  APRIL 18, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
@@ -49,7 +49,6 @@ set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name VERILOG_FILE bcd7segDEC.v
 set_location_assignment PIN_N5 -to ADC_CLK_10
 set_location_assignment PIN_P11 -to MAX10_CLK1_50
 set_location_assignment PIN_N14 -to MAX10_CLK2_50
@@ -243,6 +242,13 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity priority_encod
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity priority_encoder -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -entity priority_encoder -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity priority_encoder -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE bcd7segDEC.v
+set_global_assignment -name VERILOG_FILE bcd7segDEC_testbench.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE bcd7segDEC.vwf
+set_global_assignment -name VERILOG_FILE ALU.v
+set_global_assignment -name VERILOG_FILE ALU_testbench.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
