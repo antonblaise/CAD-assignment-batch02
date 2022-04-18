@@ -1,3 +1,7 @@
+// Author: Ha How Ung
+// Written on: 18 April 2021 (Mon)
+// Title: Testbench - Arithmetic Logic Unit
+
 `timescale 10ns/1ns
 
 module ALU_testbench(); // no input, no output

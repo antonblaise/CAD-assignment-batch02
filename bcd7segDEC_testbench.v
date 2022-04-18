@@ -1,3 +1,7 @@
+// Author: Ha How Ung
+// Written on: 18 April 2021 (Mon)
+// Title: Testbench - BCD to 7seg decoder
+
 `timescale 10ns/1ns
 
 module bcd7segDEC_testbench(); // no input, no output

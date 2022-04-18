@@ -1,5 +1,5 @@
 // Author: Ha How Ung
-// Written on: 8 April 2021 (Fri)
+// Written on: 18 April 2021 (Mon)
 // Title: Arithmetic Logic Unit
 
 module ALU (
