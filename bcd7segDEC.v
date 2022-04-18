@@ -1,3 +1,7 @@
+// Author: Ha How Ung
+// Written on: 18 April 2021 (Mon)
+// Title: BCD to 7seg decoder
+
 module bcd7segDEC (
 	input [3:0] SW, // represent 4-bit binary number (BCD) as input
 
