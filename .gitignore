@@ -39,3 +39,5 @@ output_files
 *.qws
 SUM.vwf
 MulAdd.vwf
+*.mp4
+*.png
